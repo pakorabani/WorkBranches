@@ -19,7 +19,7 @@ namespace StatisticArray
             OptionsManager.PrintArr(arr);
             OptionsManager.SortArr(arr);
             OptionsManager.CountOdds(arr);
-
+            OptionsManager.PrintOdds(arr);
         }
     }
 }

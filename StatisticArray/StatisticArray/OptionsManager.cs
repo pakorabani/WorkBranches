@@ -45,5 +45,16 @@ namespace StatisticArray
             Console.WriteLine(count);
         }
         
+        public static void PrintOdds(int[]arr)
+        {
+            foreach (var number in arr)
+            {
+                if (number % 2 != 0)
+                {
+                    Console.Write(number + "");
+                }
+            }
+        }
+
     }
 }
