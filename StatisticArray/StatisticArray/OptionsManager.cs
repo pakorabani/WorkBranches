@@ -31,7 +31,19 @@ namespace StatisticArray
         {
             Console.WriteLine(string.Join(", ",arr));
         }
+        public static void CountOdds(int[]arr)
+        {
+            int count = 0;
+            foreach (var number in arr)
+            {
+                if (number % 2 != 0)
+                {
+                    count++;
+                }
+            }
 
+            Console.WriteLine(count);
+        }
         
     }
 }
