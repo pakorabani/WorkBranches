@@ -6,6 +6,7 @@ namespace StatisticArray
     {
         static void Main(string[] args)
         {
+            //haist kotara4eta
             int n = int.Parse(Console.ReadLine());
             int[] arr = new int[n];
             for (int i = 0; i < n; i++)
